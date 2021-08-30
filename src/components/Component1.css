@@ -1,0 +1,16 @@
+.Comp1 {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 5vh;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.Comp1 > div {
+  padding: 10px;
+  border-bottom: 1px solid #000;
+}
+
+.Comp1 > div:last-child {
+  border-bottom: none;
+}
