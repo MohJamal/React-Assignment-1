@@ -1,0 +1,20 @@
+.Users li {
+  border: 1px solid #f44336;
+  margin-bottom: 10px;
+}
+
+.Users li div {
+  padding: 0 10px;
+}
+
+.Users li div:first-of-type {
+  border-top: 1px solid #07ff0794;
+}
+
+.Users li div:not(:last-child) {
+  border-bottom: 1px solid #07ff0794;
+}
+
+.Users li div p {
+  text-align: justify;
+}

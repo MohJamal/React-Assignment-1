@@ -4,14 +4,16 @@ import "./Complex.css";
 const Complex = ({ complex }) => {
   return (
     <div className="Complex">
-      {complex.map((e, i) => {
-        return (
-          <div key={i}>
-            <p>{e.company}</p>
-            <p>{e.jobs.join(" , ")}</p>
-          </div>
-        );
-      })}
+      <ul>
+        {complex.map((e, i) => {
+          return (
+            <li key={i}>
+              <p>{e.company}</p>
+              <p>{e.jobs.join(" , ")}</p>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 };

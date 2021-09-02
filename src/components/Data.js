@@ -3,9 +3,11 @@ import React from "react";
 const Data = ({ data }) => {
   return (
     <div>
-      {data.map((e, i) => (
-        <div key={i}>{e}</div>
-      ))}
+      <ul>
+        {data.map((e, i) => (
+          <li key={i}>{e}</li>
+        ))}
+      </ul>
     </div>
   );
 };
